@@ -1,4 +1,4 @@
-/* Dark background color:  #1f2937
+ /* Dark background color:  #1f2937
    Hero text:  48px #f9faf8 900
    Hero secondary, header link:  18px #e5e7eb
    Header logo: 24px  #f9faf8
@@ -46,4 +46,57 @@ body {
 .header-nav a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.hero {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 400px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0, auto;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    width: 352px;
+    color: #e5e7eb;
+    margin: 10px, auto;
+}
+
+.hero-content button {
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: #e5e7eb;
+    padding: 7px;
+    margin: 0;
+    border-radius: 5%;
+}
+
+.hero-image {
+    display: flex;
+    height: 300px;
+    width:  400px;
+    border-radius: 10px;
+    align-self: center;
+    margin-left: 30px;
 }
